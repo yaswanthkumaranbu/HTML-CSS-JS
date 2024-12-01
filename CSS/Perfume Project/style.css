@@ -1,0 +1,65 @@
+* {
+  margin: 0%;
+}
+nav {
+  background-color: black;
+  color: white;
+  padding: 15px;
+}
+li,
+ul,
+h1 {
+  display: inline;
+}
+ul {
+  margin-left: 60%;
+}
+
+li {
+  cursor: pointer;
+  color: gray;
+}
+
+li:hover {
+  color: white;
+}
+
+input {
+  width: 60%;
+  padding: 15px;
+}
+
+/* For text-align : (all text & inline / inline-block elements are affected) */
+
+.searchbar {
+  padding: 50px;
+  text-align: center;
+}
+
+.box {
+  color: black;
+  border: 2px black solid;
+  display: inline-block;
+  width: 220px;
+}
+
+.products {
+  text-align: center;
+}
+.box:hover{
+    background-color: black;
+    color: white;
+}
+
+.about{
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.contact{
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
