@@ -1,0 +1,2 @@
+Same z-index:
+    If elements have the same z-index and belong to the same stacking context, the one that appears later in the HTML document will be on top.
